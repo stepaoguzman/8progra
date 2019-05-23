@@ -1,0 +1,673 @@
+/* Empty. Add your own CSS if you like */
+.menu{
+  background: url("https://previews.123rf.com/images/slanapotam/slanapotam1701/slanapotam170100072/69426150-puntos-de-brillo-dorado-fondo-rosado-abstracto-patr%C3%B3n-de-vector-incons%C3%BAtil-fondo-de-vacaciones-brillante-pa.jpg")no-repeat;
+  background-size:center;
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration-color: none;
+}
+.efecto:hover{
+    background: #2D760A;
+    color:#000000 !important;
+}
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  background-color: #DABDD8;
+}
+.fondoagua{
+  background: url("https://i.pinimg.com/736x/31/58/7f/31587ff068a5143fa1b1d70ab28723a3--pastel.jpg")no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.contenido{
+  width: auto;
+    height: auto;
+    border-radius: 20%;
+    background: transparent;
+    text-align: center;
+}
+p{
+  padding: 2%
+}
+/*estilo adn*/
+
+ @-webkit-keyframes spinner {
+   from {
+     -webkit-transform: rotateY(0deg);
+   }
+   to {
+     -webkit-transform: rotateY(-360deg);
+   }
+ }
+
+ /* all other browsers */
+
+@keyframes spinner {
+   from {
+     -moz-transform: rotateY(0deg);
+     -ms-transform: rotateY(0deg);
+     transform: rotateY(0deg);
+   }
+   to {
+     -moz-transform: rotateY(-460deg);
+     -ms-transform: rotateY(-460deg);
+     transform: rotateY(-460deg);
+   }
+ }
+
+ #stage {
+   margin: 1em auto;
+   -webkit-perspective: 1400px;
+   -moz-perspective: 1400px;
+   -ms-perspective: 1400px;
+   perspective:1400px;
+
+   /* Safari */
+-webkit-transform: rotate(-0deg);
+
+/* Firefox */
+-moz-transform: rotate(-0deg);
+
+/* IE */
+-ms-transform: rotate(-0deg);
+
+/* Opera */
+-o-transform: rotate(-0deg);
+ }
+
+ #spinner *{
+   -webkit-animation-name: spinner;
+   -webkit-animation-timing-function:linear;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-duration: 6s;
+   animation-name: spinner;
+
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-duration: 6s;
+   -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+   -ms-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+ }
+
+#spinner *:nth-child(1) {
+  animation-delay: -1.9s;
+}
+
+#spinner *:nth-child(2) {
+  animation-delay: -2s;
+}
+
+#spinner *:nth-child(3) {
+  animation-delay: -2.3s;
+}
+
+#spinner *:nth-child(4) {
+  animation-delay: -2.4s;
+}
+
+#spinner *:nth-child(5) {
+  animation-delay: -2.6s;
+}
+
+#spinner *:nth-child(6) {
+  animation-delay: -2.8s;
+}
+
+#spinner *:nth-child(7) {
+  animation-delay: -3.0s;
+}
+
+#spinner *:nth-child(8) {
+  animation-delay: -3.2s;
+}
+
+#spinner *:nth-child(9) {
+  animation-delay: -3.4s;
+}
+
+ #spinner:hover {
+   -webkit-animation-play-state: paused;
+   animation-play-state: paused;
+ }
+
+span.grey {
+  background: #cccccc;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 3px;
+  text-align: center;
+  width: 1.1em;
+}
+
+span.green {
+  background: #5EA226;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.1em;
+}
+
+span.blue {
+  background: #55FB07 ;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 3px;
+  text-align: center;
+  width: 1.1em;
+}
+
+span.pink {
+  background: #FB7807 ;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.1em;
+}
+.lineas{
+  color: #30760F;
+}
+.lineas2{
+  color: #CB8D11;
+}
+.fondoadn{
+  background: url("http://www.hdfondos.eu/pictures/2016/0123/1/dna-strands-pics-401872.jpg")no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+/* estiolo de la vista de login*/
+.fondologin{
+  background: url("http://2.bp.blogspot.com/-1Ul8FJbhb_I/VfCWqR82HbI/AAAAAAAAIyE/BYLpK0GAOdQ/s1600/fondos%2Bvintage%2B1.jpg")no-repeat ;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  z-index: 100px;
+  position: center;
+}
+.divisionform{
+  background: url("https://fandelagua.com/wp-content/uploads/2018/02/blog_post01_0005_shutterstock_85392355.jpg")no-repeat ;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  
+  border-radius: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top:20%;
+}
+.Aguapp{
+  font-size:48px;
+}
+.usuarioC{
+  width: 100%;
+  background: none;
+  border:3px solid white  !important;
+  border-radius:40px !important;
+}
+.usuarioC2{
+  width: 100%;
+  background: none;
+  border:1px solid #000000 !important;
+  border-radius:20px !important;
+}
+.registrar{
+  width: 100%;
+  height: 30px;
+  font-size: 18px;
+  color: #FFF;
+  background: #616f39;
+}
+/*estilo de los videos*/
+.conta{
+    width:100%;
+    height:250px;
+    padding:10% !important;
+}
+/*infografia*/
+.info{
+    padding: 3%
+
+}
+.ejemplo{
+  width: 100%;
+  height: 180px;
+}
+.ejemplo2{
+  width: 200px;
+  height: 272px !important;
+}
+.teoria{
+  background: transparent;
+  color:yellow;
+}
+.teoria2{
+  background: transparent;
+  color:yellow;
+}
+.reproduccion{
+  color: pink;
+  background: #000000;
+  padding: 1px;
+  text-align: center;
+}
+.foninfo{
+    background: url("https://www.elindependiente.com/wp-content/uploads/2017/08/aborto-natural-1440x808.jpg");
+    background-size: cover;
+}
+{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  max-width: 100%;
+}
+.bioimagen{
+ size: 100%;
+}
+.land {
+  background-color:tomato;
+  width:100%;
+  height: 100%;
+  min-height: 100%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index:1;
+  display: flex;
+  
+  transform: scale(1);
+  transition: all .2s ease-in-out;
+  transition-duration: 700ms, 0s;
+  transition-delay: 0s, 1s;   
+}
+
+.land-hide{
+  transform: scale(0);
+  transition: all .2s ease-in-out;
+  transition-duration: 700ms, 0s;
+  transition-delay: 0s, 1s;  
+}
+
+.land-msg {
+  background-image: url(http://www.trabajando.es/files/tbjimg/biologia.jpg);
+  width:53%;
+  height:100%;
+  min-height: 900px;
+  min-width: 700px;
+  margin: auto auto;
+}
+
+.memorama-flip{
+  -webkit-transform: rotateY(0deg);  
+          transform: rotateY(0deg);
+  
+  animation-name: Memoria De Aguapp-flip;
+  animation-duration: 1200ms;
+  animation-delay: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;    
+  animation-fill-mode: forwards;    
+}
+
+@keyframes memorama -flip {     
+      50% {transform: rotateY(180deg) ;}    
+} 
+
+.memorama{
+  color:orange;
+  font-size:18vw;
+  font-variant-position: center;
+  font-family: 'arial', ;
+}
+
+/* button style by: http://callmenick.com/post/stylish-css-buttons*/
+.btn-play{
+  position:absolute;
+  left:14%;
+  top:200%;
+  font-size:2vw;
+  margin: 0 10px 0 0;
+  padding: 120px 70px;  
+  color: red;
+  background-image: url(http://www.bbmgif.com/images/a4/biologia-bbpin.gif);
+  background-position: center;
+  background-size: 100%;
+  border: none;
+  border-radius: 400px;
+  box-shadow: 0 10px #27496d;
+  outline:none;
+  
+  visibility:hidden;
+  opacity:0; 
+  animation-name: btn-play-show;
+  animation-duration: 800ms;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;    
+  animation-fill-mode: forwards;  
+}
+
+@keyframes btn-play-show { 
+  100% {    
+         visibility:visible;
+         opacity:1;
+       }
+}
+
+.btn-play:hover,
+.btn-play.hover {
+  background-color: #417cb8
+}
+
+.btn-play:active,
+.btn-play.active {
+  background-color: #417cb8;
+  box-shadow: 0 5px #27496d;
+  transform: translateY(5px);
+}
+
+.btn-play-again{
+  position:absolute;
+  left:60%;
+  top:60%;
+}
+
+.result-msg{
+  color:orange;
+  font-size:4vw;
+  font-family: 'Concert One', cursive;
+}
+
+/* Game*/
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  background-image: url(https://2.bp.blogspot.com/-t_mwG5wH8zE/W3-GNoaeAkI/AAAAAAAAA0k/6ijoXDyeNn8BgZApvoVclxYkhPouCpnUwCK4BGAYYCw/s1600/bd86761a9e15fcf60dceabe563cddd20.gif);
+}
+
+.flex-item {
+  background: white;
+
+  padding: 10px;
+  width: 80px;
+  height: 200px;
+  margin-top: 130px;
+  line-height: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center; 
+}
+
+.card
+{
+  width:90px;  
+  height: 80%;
+  position:relative;
+
+}
+.card-front, 
+.card-back
+{
+  position:absolute;
+  top:0px;
+  left:0px;  
+  width:100%;  
+  height: 100%;
+
+
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  
+    -webkit-transition: -webkit-transform 300ms;
+    transition: transform 300ms;
+  
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;    
+}
+
+.card-back {
+-webkit-transform: rotateY(0deg);  
+    transform: rotateY(0deg);
+}
+
+.card-front {    
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+}
+
+.card-back-flip 
+{
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+}
+
+.card-front-flip
+{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+}
+
+.card-front-no
+{
+  animation-name: card-front-no;
+  animation-duration: 200ms;
+  animation-timing-function: lineal;
+  animation-iteration-count: 15;    
+  animation-fill-mode: forwards;  
+}
+
+@keyframes card-front-no {   
+  0%  { transform: translateX(0px); }    
+  33% { transform: translateX(4px); }  
+  70% { transform: translateX(-7px);}
+  100%{ transform: translateX(3px); }  
+} 
+
+.card-front-yes
+{
+  animation-name: card-front-yes;
+  animation-duration: 200ms;
+  animation-timing-function: ease;
+  animation-iteration-count: 5;    
+  animation-fill-mode: forwards;  
+}
+
+@keyframes card-front-yes {     
+  0%  { transform: translateY(0px);}    
+  33% { transform: translateY(3px);}  
+  70% { transform: translateY(-7px);}
+  100%{ transform: translateY(4px);}  
+} 
+.fondoinicio{
+  width: 100%;
+  right: 100%;
+  }
+  body{
+    background:#cc9;
+    /*background:#181907;*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    margin: 0;
+}
+ 
+#registrar{
+        float:left;
+        width:80%;
+        font-size:24px;
+        font-weight:bold;
+        color:#FFF;
+        text-align:right;
+}
+ 
+#envoltura{
+        position:absolute;
+    /*left y top al 50% para que quede centrado en la pantalla*/
+    left:50%;
+    top:50%;
+    margin-left:-165px;
+    margin-top: -210px;
+    width: 330px;
+ 
+}
+ 
+#contenedor{
+    background-color:#BF00FF;
+    /*background-color:#356AA0;*/
+    /*box-shadow: 0 0 0 9px rgba(128,0,0,.1);*/
+    /*Margen de sombra alrededor del contenedor 8px negro*/
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    /*Las 3 líneas siguientes, sirven para el borde redondeado
+     * pero para diferentes navegadores*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+ 
+#cabecera{
+    /*linea azul que separa logo*/
+    border-bottom: 5px solid #333;
+    padding-top: 5px;
+    /*color:#FFF;*/
+    height:70px;
+    line-height:50px;
+    text-align:center;
+}
+ 
+#cuerpo{
+    background:#ececec;
+    border:solid #ccc;
+    /*aumentando el 2px 'aparece' un borde*/
+    border-width: 2px 0;
+    padding:15px 35px;
+}
+ 
+label{
+    color: #666;
+    font-weight: bold
+}
+ 
+input{
+    /*border: 1px solid #999; No usar esta línea y dejar box-shadow hace efecto de profundidad*/
+    border-radius:5px; /*probar con 10px se hacen ovalados los inputs*/
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    font:bold 12px Arial, Helvetica, sans-serif;
+    height: 24px;
+    line-height: 20px;
+    padding:0 2px;
+    width: 230px;
+}
+ 
+input#usuario{
+    background:#ffc url(./images/loquito.jpg) no-repeat 0 2px; /*probar con #ddf.
+                                                                Para mover arriba-abajo la imagen 'jugar' con 2px, 5px */
+    /*Para que el texto dentro del input se mueva*/
+    padding-left: 25px; /*Sirve para darle espacio ala imagen, probar con 30px 10px y ver comportamiento*/
+}
+ 
+input#contrasenia{
+    background:#ffc url(./images/infinio.jpg) no-repeat 0 5px;
+    padding-left: 25px;
+ 
+}
+ 
+.boton{
+    background: #ccc;
+    /*background: -moz-linear-gradient(top,#eee,#ccc);*/
+    /*background: -moz-linear-gradient(top,#fc6,#f63);*/
+    background: -webkit-linear-gradient(top,#fc6,#f63);
+    background: linear-gradient(top,#fc6,#f63);
+    /*Color del texto*/
+    color: #666;
+    width: 120px;
+}
+ 
+/*Tip estas instrucciones animan al boton enviar
+ * para que se vea como si se pulsara*/
+.boton:active{
+    position: relative;
+    top: 3px;
+}
+ 
+#pie{
+    border-top: 5px solid #333;
+    color: #fff;
+    font-size: 11px;
+    height: 25px;
+    line-height: 24px;
+    text-align: center;
+}
+ 
+form,p{
+    margin:0;
+}
+ 
+p{
+    /*Para que los elementos del cuerpo
+     * se separen entre ellos probar con
+     * 10px 20px                      */
+    padding-bottom: 5px;
+}
+ 
+/*Para separar el botón de ingresar*/
+p#bot{
+    padding-top: 10px;
+}
+.ima{
+  width: 100px;
+  left: 20px;
+}
+.tabla{
+  
+  width: 380px;
+  left:900px;
+  right: 700px; 
+}
+.fondotabla{
+  background: url("https://cargar.org/imagen/fondos-para-whatsapp-patada-de-caballo-paisajes-myid-OIP.FGHRLnCKfeh95s1xPW1_qAHaMW.jpg")no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
